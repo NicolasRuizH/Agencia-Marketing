@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Growth Partners | Marketing Digital</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a href="#" class="logo">
+    <div class="logo-icon">⚡</div>
+    Growth<span>Partners</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Servicios</a></li>
+    <li><a href="#features">Enfoque</a></li>
+    <li><a href="#process">Proceso</a></li>
+    <li><a href="#testimonials">Testimonios</a></li>
+    <li><a href="#cta" class="nav-cta">Hablar con un experto</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#services" class="mob-link">Servicios</a></li>
+    <li><a href="#features" class="mob-link">Enfoque</a></li>
+    <li><a href="#process" class="mob-link">Proceso</a></li>
+    <li><a href="#testimonials" class="mob-link">Testimonios</a></li>
+    <li><a href="#cta" class="mob-link mob-cta">Hablar con un experto</a></li>
+  </ul>
+</div>
+<div class="mobile-overlay" id="mobileOverlay"></div>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/5491156651006" target="_blank" class="wpp-float" aria-label="Contactar por WhatsApp">
+  <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M16 2C8.268 2 2 8.268 2 16c0 2.46.664 4.763 1.82 6.745L2 30l7.49-1.793A13.93 13.93 0 0016 30c7.732 0 14-6.268 14-14S23.732 2 16 2z" fill="#25D366"/>
+    <path d="M22.5 19.5c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01s-.52.07-.79.37c-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.09 4.49.71.31 1.27.49 1.7.63.71.22 1.36.19 1.87.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z" fill="white"/>
+  </svg>
+  <span class="wpp-tooltip">¡Escribinos!</span>
+</a>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- Circuit SVG decoration -->
+  <div class="hero-visual">
+    <svg class="circuit-svg" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="250" cy="250" r="200" stroke="rgba(0,229,255,0.08)" stroke-width="1"/>
+      <circle cx="250" cy="250" r="150" stroke="rgba(0,229,255,0.06)" stroke-width="1"/>
+      <circle cx="250" cy="250" r="100" stroke="rgba(0,229,255,0.1)" stroke-width="1" stroke-dasharray="8 4"/>
+      <!-- nodes -->
+      <circle cx="250" cy="50" r="6" fill="rgba(0,229,255,0.5)"/>
+      <circle cx="250" cy="450" r="6" fill="rgba(0,229,255,0.5)"/>
+      <circle cx="50" cy="250" r="6" fill="rgba(124,58,237,0.6)"/>
+      <circle cx="450" cy="250" r="6" fill="rgba(124,58,237,0.6)"/>
+      <circle cx="109" cy="109" r="5" fill="rgba(16,185,129,0.6)"/>
+      <circle cx="391" cy="109" r="5" fill="rgba(16,185,129,0.6)"/>
+      <circle cx="109" cy="391" r="5" fill="rgba(0,229,255,0.4)"/>
+      <circle cx="391" cy="391" r="5" fill="rgba(0,229,255,0.4)"/>
+      <!-- lines -->
+      <line x1="250" y1="50" x2="250" y2="150" stroke="rgba(0,229,255,0.25)" stroke-width="1"/>
+      <line x1="250" y1="350" x2="250" y2="450" stroke="rgba(0,229,255,0.25)" stroke-width="1"/>
+      <line x1="50" y1="250" x2="150" y2="250" stroke="rgba(124,58,237,0.3)" stroke-width="1"/>
+      <line x1="350" y1="250" x2="450" y2="250" stroke="rgba(124,58,237,0.3)" stroke-width="1"/>
+      <!-- center -->
+      <circle cx="250" cy="250" r="40" fill="rgba(0,229,255,0.06)" stroke="rgba(0,229,255,0.2)" stroke-width="1.5"/>
+      <circle cx="250" cy="250" r="18" fill="rgba(0,229,255,0.15)"/>
+      <circle cx="250" cy="250" r="7" fill="rgba(0,229,255,0.8)"/>
+      <!-- diagonal lines -->
+      <line x1="109" y1="109" x2="180" y2="180" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+      <line x1="391" y1="109" x2="320" y2="180" stroke="rgba(16,185,129,0.2)" stroke-width="1"/>
+      <line x1="109" y1="391" x2="180" y2="320" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+      <line x1="391" y1="391" x2="320" y2="320" stroke="rgba(0,229,255,0.2)" stroke-width="1"/>
+      <!-- data points -->
+      <rect x="220" y="140" width="60" height="24" rx="4" fill="rgba(0,229,255,0.07)" stroke="rgba(0,229,255,0.15)" stroke-width="1"/>
+      <rect x="220" y="336" width="60" height="24" rx="4" fill="rgba(124,58,237,0.07)" stroke="rgba(124,58,237,0.15)" stroke-width="1"/>
+      <text x="250" y="156" text-anchor="middle" fill="rgba(0,229,255,0.6)" font-size="9" font-family="monospace">LEADS</text>
+      <text x="250" y="352" text-anchor="middle" fill="rgba(124,58,237,0.6)" font-size="9" font-family="monospace">ROI</text>
+      <!-- animated ring -->
+      <circle cx="250" cy="250" r="200" stroke="rgba(0,229,255,0.04)" stroke-width="2" stroke-dasharray="20 10">
+        <animateTransform attributeName="transform" type="rotate" from="0 250 250" to="360 250 250" dur="30s" repeatCount="indefinite"/>
+      </circle>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      Agencia de Resultados
+    </div>
+
+    <h1 class="hero-title">
+      Marketing<br><span class="accent-word">Digital</span>
+    </h1>
+
+    <p class="hero-sub">
+      Transformamos tu inversión en crecimiento real. Unificamos estrategia, tecnología y datos para que tu empresa escale de forma medible y sostenible.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#cta" class="btn-primary">Hablar con un experto →</a>
+      <a href="#services" class="btn-secondary">Ver servicios</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat-item">
+        <div class="stat-num">350+</div>
+        <div class="stat-label">Empresas escaladas</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">4.8★</div>
+        <div class="stat-label">Rating promedio</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num">8x</div>
+        <div class="stat-label">ROI promedio</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item"><span class="ticker-dot"></span>Google Ads</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>SEO & GEO</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Marketing Online</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Diseño Web</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>E-Commerce</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Automatización</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Analítica</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Estrategia Digital</span>
+    <!-- duplicate -->
+    <span class="ticker-item"><span class="ticker-dot"></span>Google Ads</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>SEO & GEO</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Marketing Online</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Diseño Web</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>E-Commerce</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Automatización</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Analítica</span>
+    <span class="ticker-item"><span class="ticker-dot"></span>Estrategia Digital</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-header reveal">
+    <div>
+      <span class="section-label">Lo que hacemos</span>
+      <h2 class="section-title">Nuestros Servicios</h2>
+      <p class="section-sub">Cada servicio cumple un rol dentro de la estrategia. Conectamos canales y datos en un sistema unificado de crecimiento.</p>
+    </div>
+    <a href="#cta" class="btn-secondary">Ver todos →</a>
+  </div>
+
+  <div class="services-grid">
+    <div class="service-card reveal reveal-delay-1" style="--card-accent: #00e5ff; --icon-bg: rgba(0,229,255,0.1)">
+      <div class="service-icon">📣</div>
+      <h3>Marketing Online</h3>
+      <p>Atraemos demanda con campañas hipersegmentadas. Medimos leads, costo por resultado y calidad de tráfico para maximizar cada peso de inversión.</p>
+      <a href="#cta" class="service-link">Conocer más →</a>
+    </div>
+
+    <div class="service-card reveal reveal-delay-2" style="--card-accent: #7c3aed; --icon-bg: rgba(124,58,237,0.1)">
+      <div class="service-icon">🛒</div>
+      <h3>E-Commerce</h3>
+      <p>Diseñamos y gestionamos tiendas online orientadas a conversión. Optimizamos la experiencia de compra y el rendimiento de cada producto en catálogo.</p>
+      <a href="#cta" class="service-link">Conocer más →</a>
+    </div>
+
+    <div class="service-card reveal reveal-delay-3" style="--card-accent: #10b981; --icon-bg: rgba(16,185,129,0.1)">
+      <div class="service-icon">💻</div>
+      <h3>Diseño Web</h3>
+      <p>Construimos sitios rápidos, claros y orientados a vender. Una web bien diseñada reduce fricción, mejora conversiones y potencia todos tus canales.</p>
+      <a href="#cta" class="service-link">Conocer más →</a>
+    </div>
+
+    <div class="service-card reveal reveal-delay-4" style="--card-accent: #f59e0b; --icon-bg: rgba(245,158,11,0.1)">
+      <div class="service-icon">🔍</div>
+      <h3>Anunciar en Google</h3>
+      <p>Gestionamos Google Ads con estructura sólida, control presupuestario y medición real. Optimizamos búsquedas y landing pages para mejorar el ROI.</p>
+      <a href="#cta" class="service-link">Conocer más →</a>
+    </div>
+
+    <div class="service-card reveal reveal-delay-5" style="--card-accent: #ec4899; --icon-bg: rgba(236,72,153,0.1)">
+      <div class="service-icon">📈</div>
+      <h3>SEO & Posicionamiento</h3>
+      <p>Combinamos SEO técnico y GEO (optimización para IA) para posicionarte en buscadores y motores generativos. Tráfico calificado y conversiones reales.</p>
+      <a href="#cta" class="service-link">Conocer más →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="features-inner">
+    <div class="features-visual reveal">
+      <div class="features-card-stack">
+        <div class="feat-card">
+          <div class="feat-icon">🚀</div>
+          <h4>Resultados desde el día 1</h4>
+          <p>Campañas activas en 48hs con medición en tiempo real desde el primer clic.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">⚡</div>
+          <h4>Sistema integrado</h4>
+          <p>Todos los canales coordinados bajo una misma estrategia de crecimiento medible.</p>
+        </div>
+        <div class="feat-card">
+          <div class="feat-icon">📊</div>
+          <h4>Datos, no suposiciones</h4>
+          <p>Decisiones basadas en métricas que importan: leads, CAC y retorno real.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal reveal-delay-2">
+      <span class="section-label">Tu realidad actual</span>
+      <h2 class="section-title">Problemas que resolvemos</h2>
+      <p class="section-sub">Muchas empresas llegan con situaciones que frenan su crecimiento. Nuestro trabajo es ordenarlas.</p>
+
+      <ul class="problem-list">
+        <li class="problem-item">
+          <div class="problem-arrow">→</div>
+          <p><strong>Invertís en ads pero no sabés qué canal funciona</strong> y el presupuesto se evapora sin resultados claros.</p>
+        </li>
+        <li class="problem-item">
+          <div class="problem-arrow">→</div>
+          <p><strong>Publicás contenido constantemente</strong> pero no lográs resultados consistentes ni escalables.</p>
+        </li>
+        <li class="problem-item">
+          <div class="problem-arrow">→</div>
+          <p><strong>Tenés visitas, pero no convertís</strong> en consultas reales ni en ventas concretas.</p>
+        </li>
+        <li class="problem-item">
+          <div class="problem-arrow">→</div>
+          <p><strong>Cambiás de proveedor seguido</strong> sin entender por qué el negocio no despega.</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process">
+  <div class="process-header reveal">
+    <span class="section-label">Cómo trabajamos</span>
+    <h2 class="section-title">Nuestro Proceso</h2>
+    <p class="section-sub">Un sistema claro con objetivos medibles en cada etapa.</p>
+  </div>
+
+  <div class="process-steps">
+    <div class="process-step reveal reveal-delay-1">
+      <div class="step-num">01</div>
+      <h4>Diagnóstico</h4>
+      <p>Analizamos el negocio, la competencia y tu punto de partida real antes de proponer cualquier acción.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-2">
+      <div class="step-num">02</div>
+      <h4>Estrategia</h4>
+      <p>Definimos objetivos concretos y diseñamos un plan alineado a datos, mercado y contexto local.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-3">
+      <div class="step-num">03</div>
+      <h4>Ejecución</h4>
+      <p>Coordinamos todos los canales bajo una misma estrategia. Sin acciones aisladas ni silos.</p>
+    </div>
+    <div class="process-step reveal reveal-delay-4">
+      <div class="step-num">04</div>
+      <h4>Optimización</h4>
+      <p>Medición constante y mejora continua. Cada decisión está respaldada por datos reales.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="testimonials-header reveal">
+    <span class="section-label">Lo que dicen</span>
+    <h2 class="section-title">Más de 350 empresas<br>crecieron con nosotros</h2>
+  </div>
+
+  <div class="testimonials-track-wrap">
+    <div class="testimonials-track">
+      <!-- Card 1 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Nunca antes me habían explicado tan claramente qué se debía hacer. Los resultados, incluso con menor inversión, fueron determinantes para que hoy sean mi agencia de referencia."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#00e5ff,#7c3aed)">BW</div>
+          <div>
+            <div class="author-name">Bruno Whiteman</div>
+            <div class="author-role">Empresario</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Excelente nivel de conocimiento y servicio. Growth Partners hizo crecer nuestra empresa de una forma que no creíamos posible en tan poco tiempo."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#7c3aed,#ec4899)">IM</div>
+          <div>
+            <div class="author-name">Iván Martín</div>
+            <div class="author-role">Director Comercial</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"No es una agencia más. Te acompañan en absolutamente todo: estrategia de ventas, coaching, ideas. Los anuncios funcionan perfecto y siempre buscan soluciones, nunca excusas."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#10b981,#00e5ff)">GC</div>
+          <div>
+            <div class="author-name">Gastón Carbone</div>
+            <div class="author-role">Fundador & CEO</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Desde que trabajamos juntos, mis ventas crecieron al 100%. Cambió mi forma de pensar el negocio y amplié mi visión como nunca antes. Los recomiendo con total sinceridad."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#f59e0b,#ec4899)">PP</div>
+          <div>
+            <div class="author-name">Pia Primavera</div>
+            <div class="author-role">Comerciante</div>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Me escribieron un viernes a la tarde y me atendieron sin problema. El primer día de anuncios ya recibí consultas de clientes potenciales. Velocidad y resultados desde el inicio."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#00e5ff,#10b981)">LF</div>
+          <div>
+            <div class="author-name">Leonel Flores</div>
+            <div class="author-role">Emprendedor</div>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicates for loop -->
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Nunca antes me habían explicado tan claramente qué se debía hacer. Los resultados, incluso con menor inversión, fueron determinantes para que hoy sean mi agencia de referencia."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#00e5ff,#7c3aed)">BW</div>
+          <div>
+            <div class="author-name">Bruno Whiteman</div>
+            <div class="author-role">Empresario</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Excelente nivel de conocimiento y servicio. Growth Partners hizo crecer nuestra empresa de una forma que no creíamos posible en tan poco tiempo."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#7c3aed,#ec4899)">IM</div>
+          <div>
+            <div class="author-name">Iván Martín</div>
+            <div class="author-role">Director Comercial</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"No es una agencia más. Te acompañan en absolutamente todo: estrategia de ventas, coaching, ideas. Los anuncios funcionan perfecto y siempre buscan soluciones, nunca excusas."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#10b981,#00e5ff)">GC</div>
+          <div>
+            <div class="author-name">Gastón Carbone</div>
+            <div class="author-role">Fundador & CEO</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Desde que trabajamos juntos, mis ventas crecieron al 100%. Cambió mi forma de pensar el negocio y amplié mi visión como nunca antes. Los recomiendo con total sinceridad."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#f59e0b,#ec4899)">PP</div>
+          <div>
+            <div class="author-name">Pia Primavera</div>
+            <div class="author-role">Comerciante</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Me escribieron un viernes a la tarde y me atendieron sin problema. El primer día de anuncios ya recibí consultas de clientes potenciales. Velocidad y resultados desde el inicio."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background: linear-gradient(135deg,#00e5ff,#10b981)">LF</div>
+          <div>
+            <div class="author-name">Leonel Flores</div>
+            <div class="author-role">Emprendedor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="reveal">
+    <span class="section-label">Empecemos</span>
+    <h2 class="section-title">Hacé crecer tu<br>negocio desde hoy</h2>
+    <p class="section-sub" style="margin: 20px auto 0; text-align: center;">Dejanos tu email y un experto te contacta en menos de 24 horas.</p>
+
+    <div class="cta-form">
+      <input type="email" placeholder="tu@empresa.com">
+      <button type="button">Quiero crecer →</button>
+    </div>
+    <p class="cta-sub">Sin compromiso. Respuesta garantizada en 24hs.</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <div class="logo-icon">⚡</div>
+        Growth<span>Partners</span>
+      </a>
+      <p>Somos una agencia de marketing digital integral. Estrategia, tecnología y datos al servicio del crecimiento real de tu empresa.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-btn">in</a>
+        <a href="#" class="social-btn">ig</a>
+        <a href="#" class="social-btn">fb</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>La Agencia</h4>
+      <ul>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li><a href="#">Casos de Éxito</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <ul>
+        <li><a href="#">Marketing Online</a></li>
+        <li><a href="#">Google Ads</a></li>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">Diseño Web</a></li>
+        <li><a href="#">E-Commerce</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li><a href="tel:+541156651006">+54 11 5665-1006</a></li>
+        <li><a href="mailto:hola@growthpartners.com.ar">hola@growthpartners.com.ar</a></li>
+        <li><a href="#">Buenos Aires, Argentina</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Growth Partners. Todos los derechos reservados.</p>
+    <p style="color: rgba(136,153,187,0.5); font-size: 0.75rem;">Diseño & Estrategia Digital</p>
+  </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
